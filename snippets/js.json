@@ -1,0 +1,7 @@
+{
+	"JS: debug(...)": {
+		"prefix": "debug",
+		"body": ["console.log($1);"],
+		"description": "JS - Default debug"
+	}
+}

@@ -1,6 +1,5 @@
 {
 	"PHP: debug(...)": {
-		"scope": "php",
 		"prefix": "debug",
 		"body": ["echo '<pre>' . print_r($1); exit();"],
 		"description": "PHP - Default debug"

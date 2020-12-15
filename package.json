@@ -1,33 +1,41 @@
 {
-    "name": "vscode-snippets",
-    "publisher": "matmper",
-    "displayName": "Peppa Snippets",
+    "name": "snippeppa",
+    "publisher": "MatheusPereira",
+    "displayName": "Snippeppa",
     "description": "Pacote com alguns snippets úteis",
-    "icon": "images/icon.png",
-    "scripts": {
-        "package": "vsce package"
+    "author": "Matheus Pereira (https://github.com/matmper)",
+    "icon": "images/icon.jpg",
+    "version": "0.0.2",
+    "engines": {
+        "vscode": "^1.52.0"
     },
-    "galleryBanner": {
-        "color": "#232323",
-        "theme": "dark"
-    },
+    "keywords": [
+        "SNIPPETS",
+        "PHP",
+        "JS",
+        "TWIG"
+    ],
+    "categories": [
+        "Snippets"
+    ],
     "license": "MIT",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/matmper/vscode-snippets.git"
     },
-    "author": "Matheus Pereira (https://github.com/matmper)",
-    "version": "0.0.1",
-    "engines": { "vscode": "^0.11.x" },
-    "categories": ["Snippets"],
-    "keywords": [
-        "SNIPPETS","PHP","JS","TWIG"
-    ],
     "contributes": {
-    "snippets": [
+        "snippets": [
             {
                 "language": "php",
                 "path": "./snippets/php.json"
+            },
+            {
+                "language": "js",
+                "path": "./snippets/js.json"
+            },
+            {
+                "language": "twig",
+                "path": "./snippets/twig.json"
             }
         ]
     }
