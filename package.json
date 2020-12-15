@@ -1,0 +1,34 @@
+{
+    "name": "vscode-snippets",
+    "publisher": "matmper",
+    "displayName": "Peppa Snippets",
+    "description": "Pacote com alguns snippets úteis",
+    "icon": "images/icon.png",
+    "scripts": {
+        "package": "vsce package"
+    },
+    "galleryBanner": {
+        "color": "#232323",
+        "theme": "dark"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/matmper/vscode-snippets.git"
+    },
+    "author": "Matheus Pereira (https://github.com/matmper)",
+    "version": "0.0.1",
+    "engines": { "vscode": "^0.11.x" },
+    "categories": ["Snippets"],
+    "keywords": [
+        "SNIPPETS","PHP","JS","TWIG"
+    ],
+    "contributes": {
+    "snippets": [
+            {
+                "language": "php",
+                "path": "./snippets/php.json"
+            }
+        ]
+    }
+}
