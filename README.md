@@ -5,9 +5,9 @@ Pacote com alguns snippets úteis que vai agilizar o desenvolvimento e funções
 
 ## Snippet Prefix
 
-|Linguagens| Prefix | Description | 
+|Prefix|Linguagens|Description| 
 |--|--|--|
-| PHP, JS, Twig | debug | Exibe um debug simples de forma rápida
+|debug|PHP, JS, Twig|Exibe um debug simples e de forma rápida|
 
 
 ## Requirements
@@ -16,9 +16,7 @@ Necessário obter uma versão recente do [Microsoft VS Code](https://code.visual
 
 ## Versões
 
-##### 0.0.2 - Adição de um debug para Twig
-
-##### 0.0.1 - Primeira versão com os primeiros snippets da extensão
+Acesse o log completo de atualizações e correções da extensão: [Snippeppa Changelog](https://marketplace.visualstudio.com/items/MatheusPereira.snippeppa/changelog)
 
 ## License
 
