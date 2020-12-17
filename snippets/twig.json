@@ -1,7 +1,7 @@
 {
 	"Twig: debug(...)": {
 		"prefix": "debug",
-		"body": ["console.log($1);"],
-		"description": "JS - Default debug"
+		"body": ["<pre>{{ dump($1) }}</pre>"],
+		"description": "Twig - Default debug"
 	}
 }

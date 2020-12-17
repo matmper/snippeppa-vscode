@@ -5,7 +5,7 @@
     "description": "Pacote com snippets simples que facilitam o desenvolvimento e debugs",
     "author": "Matheus Pereira (https://github.com/matmper)",
     "icon": "images/icon.jpg",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.52.0"
     },

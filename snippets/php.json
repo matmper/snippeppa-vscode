@@ -1,7 +1,12 @@
 {
 	"PHP: debug(...)": {
 		"prefix": "debug",
-		"body": ["echo '<pre>'; print_r($1); exit();"],
+		"body": ["echo '<pre>'; print_r($1); echo '</pre>'"],
 		"description": "PHP - Default debug"
+	},
+	"PHP: debug exit(...)": {
+		"prefix": "debuge",
+		"body": ["echo '<pre>'; print_r($1); exit();"],
+		"description": "PHP - Default debug with exit"
 	}
 }

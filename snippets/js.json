@@ -1,7 +1,21 @@
 {
 	"JS: debug(...)": {
 		"prefix": "debug",
-		"body": ["console.log($1);"],
+		"body": [
+			"console.log('- - - - - - - - - - - - - - - - - -');",
+			"console.log($1);",
+			"console.log('- - - - - - - - - - - - - - - - - -');"
+		],
 		"description": "JS - Default debug"
+	},
+	"JS: debug exit(...)": {
+		"prefix": "debuge",
+		"body": [
+			"console.log('- - - - - - - - - - - - - - - - - -');",
+			"console.log($1);",
+			"console.log('- - - - - - - - - - - - - - - - - -');",
+			"return false;"
+		],
+		"description": "JS - Default debug with return false"
 	}
 }

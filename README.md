@@ -7,7 +7,8 @@ Pacote com alguns snippets úteis que vai agilizar o desenvolvimento e funções
 
 |Prefix|Linguagens|Description| 
 |--|--|--|
-|debug|PHP, JS, Twig|Exibe um debug simples e de forma rápida|
+|debug|PHP, JS, Twig|Debug simples e de forma rápida|
+|debuge|PHP, JS|Debug simples dando return false/exit no código|
 
 
 ## Requirements
