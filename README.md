@@ -9,6 +9,7 @@ Pacote com alguns snippets úteis que vai agilizar o desenvolvimento e funções
 |--|--|--|
 |debug|PHP, JS, Twig|Debug simples e de forma rápida|
 |debuge|PHP, JS|Debug simples dando return false/exit no código|
+|debugv|PHP|Debug dump dando exit no código|
 
 
 ## Requirements
